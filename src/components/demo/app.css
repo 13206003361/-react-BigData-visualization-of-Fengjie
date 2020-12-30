@@ -1,0 +1,9 @@
+.card{
+    display: flex;
+    margin: 50px;
+    transition: 1s;
+  }
+  .card div{
+    margin-right: 20px;
+    transition:1s;
+  }

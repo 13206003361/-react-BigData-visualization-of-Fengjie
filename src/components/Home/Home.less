@@ -1,0 +1,158 @@
+.content{
+    position: absolute;
+    //top: 133px;
+    width: 100%;
+    .title1{
+        background-image: url(../../assets/images/vedioTitle.png)!important;
+    }
+    .title{
+        background-image: url(../../assets/images/vedioTitle.png);
+        width: 100%;
+        height: 242.8px;
+        margin: 0 auto;
+        background-repeat: no-repeat;
+        background-size: 101% 100%;
+        background-position: center;
+        position: relative;
+        .sweather{
+            position: absolute;
+            right: 30px;
+            top: 66px;
+            font-size: 14px;
+            color: #55CEFF ;
+        }
+        ul{
+            overflow: hidden;
+            width: 1920px;
+            margin: 0 auto;
+            list-style: none;
+            padding-left: 25px;
+            padding-top: 48px;
+            li{
+              float: left;
+              font-family: SourceHanSansSC-Normal;
+              font-size: 22px;
+              line-height: 40px;
+              width:114px;
+              height: 40px;
+              text-align: center;
+              background-repeat: no-repeat;
+              background-size: 100% 100%;
+               
+            }
+            .choose_active{background-image: url(../../assets/images/choose.png);}
+            .choose_notactive{background-image: url(../../assets/images/chooseNot.png);color: #fff;}
+          }
+      }
+    .contentWrap{
+        width: 1920px;
+        margin: -110px auto;
+        padding-left: 25px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        :global{
+            .left-content{
+                width: 558px;
+                .num_item{
+                    width: 558px;
+                    height: 380px;
+                    background-image: url(../../assets/images/left-bg.png);
+                    background-size: 100% 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .num_item+.num_item{
+                    margin-top: 72px;
+                }
+            }
+
+            .right-content{
+                margin-top: 52px;
+                align-self: flex-start;
+                width: 518px;
+                height: 601px;
+                padding: 18px 16px 0;
+                margin-right: 27px;
+                color:#fff;
+                font-size: 21px;
+                background-size: 100% 100%;
+                background-image: url(../../assets/images/right-bg.png);
+            }
+
+            .center-content{
+                width: 802.2px;
+                height: 922.3px;
+                overflow: hidden;
+                .sum-num{
+                    width: 1264px;
+                    height: 190px;
+                    background-image: url(../../assets/images/center-bg.png);
+                    background-size: 100% 100%;
+                    position: absolute;
+                    bottom: -66px;
+                    display: flex;
+                    justify-content: center;
+                    align-self: center;
+                    margin-left: 50px;
+                }
+                .map{
+                    ul{
+                        list-style: none;
+                        li{
+                            //display: none;
+                            transition: .5s;
+                            background-image: url('../../assets/images/liangdian.png');
+                            background-size: cover;
+                            height: 30px;
+                            width: 30px;
+                            position: relative;
+                            margin: -9px 0;
+                            .tip{
+                                //display: none;
+                                visibility: visible;
+                                //transition: 1s;
+                                z-index: 1000;
+                                font-family: 'SourceHanSansSC-Medium';
+                                background-image: url('../../assets/images/pop.png');
+                                min-width: 140PX;
+                                max-width: 140PX;
+                                height: 77px;
+                                background-size: 100% 100%;
+                                top:21px;
+                                left: -13px;
+                                position: absolute;
+                               
+                                padding: 15px 5px;
+                                p{
+                                    margin: 0;
+                                    color: #FFF;
+                                    font-weight: 600;
+                                    font-size: 12px;
+                                }
+                                p:first-child{
+                                    font-size: 14px;
+                                    color: #9CE7FF;
+                                    font-weight: 600;
+                                
+                                }
+                            }
+                        }
+                    }
+                    padding-top: 33px;
+                    display: block;
+                    width: 284px;
+                    height: 388px;
+                    margin-left: 300px!important;
+                    margin: 333px auto ;
+                    position: relative;
+                    background-image: url('../../assets/images/map.png');
+                    background-size: 100% 100%;
+                    
+                }
+            }
+        }
+    }
+   
+}
